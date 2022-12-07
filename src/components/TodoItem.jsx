@@ -33,7 +33,7 @@ export default function TodoItem({
           삭제
         </button>
         <button
-          onClick={() => changeIsDone(event)}
+          onClick={(event) => changeIsDone(event)}
           value={id}
           className="isdone-button"
         >
